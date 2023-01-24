@@ -1,0 +1,43 @@
+# Memberikan perintah bahwa schema version yang digunakan adalah 3.7
+version: "3.7"
+
+# Menambahkan services yang akan dijalankan
+services:
+
+# menambahkan service kedua, yang berupa item-app
+  item-app:
+
+# menggunakan image node:14-alpine
+    image: node:14-alpine
+# memberikan opsi untuk selalu restart ketika terjadi error
+    restart: always
+# melakukan instalasi dengan npm
+    command: sh -c "npm install --production --unsafe-perm && npm run build"
+# mempetakan port agar dapat diakses dari port 80
+    ports:
+      - 80:3000
+# mengarahan working dir ke /app
+    working_dir: /app
+
+# mengarahkan volume agar dipasang pada current directory
+    volumes:
+      - ./:/app
+    
+# menambahkan service kedua, yang berupa item-db
+  item-db:
+# memberikan image mongo:3
+    image: mongo:3
+# memberikan kesempatan untuk restart ketika diperlukan
+    restart: always
+# mengature volume agar menggunakan app-db:/data/db
+    volumes:
+      - app-db:/data/db
+
+    
+# Menggunakan volumes custom name
+
+volumes:
+
+# memberinama custom volume dengan nama app-db
+  app-db:
+
