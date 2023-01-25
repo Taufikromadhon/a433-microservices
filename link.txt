@@ -1,0 +1,5 @@
+Link hub docker 
+https://hub.docker.com/r/fikro12/item-app
+
+Link Github
+https://github.com/Taufikromadhon/a433-microservices/tree/proyek-pertama
