@@ -1,0 +1,31 @@
+[+] Running 2/0
+ ⠿ Container a433-microservices-item-db-1   Running 0.0s
+ ⠿ Container a433-microservices-item-app-1  Running 0.0s
+
+
+[+] Running 22/22
+ ⠿ item-db Pulled            377.9s7.2s
+   ⠿ 92473f7ef455 Pull complete  167.8s8sB/46.25MB 167.8s
+   ⠿ fb52bde70123 Pull complete  168.2s2sB/851B 168.2s
+   ⠿ 64788f86be3f Pull complete  168.6s6sB/527B 168.6s
+   ⠿ 33f6d5f2e001 Pull complete  169.0s0sB/169B 169.0s
+   ⠿ 570e56656608 Pull complete  169.4s4sB/1.989kB 169.4s
+   ⠿ f518a872ab12 Pull complete  170.2s2sB/2.906MB 170.2s
+   ⠿ c9bdae151f64 Pull complete  170.7s7sB/1.305MB 170.7s
+   ⠿ b2c58da5f563 Pull complete  171.1s1sB/149B 171.1s
+   ⠿ 2928038a6053 Pull complete  171.5s5sB/1.998kB 171.5s
+   ⠿ 29a16c1b79ab Pull complete  171.9s9sB/239B 171.9s
+   ⠿ efec0f86077c Pull complete  371.6s6sB/119.4MB 371.6s
+   ⠿ 261a04726d31 Pull complete  372.0s69B/169B 372.0s
+   ⠿ 7c4062426e72 Pull complete  372.4s.47kB 372.4s
+ ⠿ item-app Pulled           134.5s4.5s
+   ⠿ 8921db27df28 Pull complete  9.2s2s.371MB 9.2ss
+   ⠿ 859ef990dca3 Pull complete  125.1s1sB/37.96MB 125.1s
+   ⠿ ab15903128fe Pull complete  125.7s7sB/2.369MB 125.7s
+   ⠿ 46ee9f8a4f5c Pull complete  126.1s1sB/449B 126.0s
+   ⠿ 02bfb6caed72 Pull complete  126.5s5sB/92B 126.4s
+   ⠿ 0672d024ccaa Pull complete  129.6s6sB/8.96MB 129.6s
+   ⠿ fd10e50c0919 Pull complete  130.1s1sB/2.894MB 130.1s
+[+] Running 2/2
+ ⠿ Container a433-microservices-item-db-1   Started 6.8ss
+ ⠿ Container a433-microservices-item-app-1  Started 4.3ss

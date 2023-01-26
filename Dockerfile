@@ -16,6 +16,5 @@ RUN npm install --production --unsafe-perm && npm run build
 # Mengeksekusi perintah untuk menjalankan aplikasi
 CMD ["npm", "start"]
 
-
 # Port yang digunakan oleh aplikasi adalah 8080 
 EXPOSE 8080
