@@ -19,9 +19,8 @@ services:
 
 # mempetakan port agar dapat diakses dari port 80
     ports:
-      - 80:3000
+      - 80:8080
 
-    
 # menambahkan service kedua, yang berupa item-db
   item-db:
 # memberikan image mongo:3
@@ -34,7 +33,6 @@ services:
 
     
 # Menggunakan volumes custom name
-
 volumes:
 
 # memberinama custom volume dengan nama app-db
